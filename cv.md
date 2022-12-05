@@ -3,8 +3,8 @@
 
 ## Contacts
 * **E-mail:** qwerton68@gmail.com
-* **Telegram:** @qwerton1
-* **GitHub:** Qwerton 
+* **Telegram:** [@qwerton1](https://t.me/qwerton1)
+* **GitHub:** [Qwerton](https://github.com/Qwerton)
 
 ## About Me
 I started my career as a designer and continued as a webmaster and 3D artist. I'm currently learning front-end development.
