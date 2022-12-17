@@ -1,15 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>rsschool-cv-html</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cv</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/img/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  <header>
-    <h1>Mikhail Agafonov</h1>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
+  <main class="main">
+    <div class="container main-container">
+      <section class="section" id="profile">
+        <img class="image" src="assets/img/avatar.jpg" alt="Photo" width="250">
+        <h1>Mikhail Agafonov</h1>
+      </section>
+      <section class="section" id="About">
+        <h2 class="section-title">About Me</h2>
+        <p>I started my career as a designer and continued as a webmaster and 3D artist. I’m currently learning
+          front-end development.</p>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Git/GitHub</li>
+        </ul>
+      </section>
+      <section class="section" id="code">
+        <h2 class="section-title">Code</h2>
+        <pre>
+let userName = 'Qwerton';
+function showMessage() {
+  let message = 'Hello, ' + userName;
+  alert(message);
+}
+showMessage();
+        </pre>
+      </section>
+      <section class="section bottom-section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <ul>
+          <li>E-mail: <a href="mailto:qwerton68@gmail.com" title="Email">qwerton68@gmail.com</a></li>
+          <li>Telegram: <a href="https://t.me/qwerton1" target="_blank" title="Telegram">@qwerton1</a></li>
+          <li>GitHub: <a href="https://github.com/Qwerton" target="_blank" title="GitHub">Qwerton</a></li>
+        </ul>
+      </section>
+      <section class="section bottom-section" id="languages">
+        <h2 class="section-title">Languages</h2>
+        <ul>
+          <li>Russian</li>
+          <li>English</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container footer-container">
+      <section><p>2022</p></section>
+      <section><a href="https://github.com/Qwerton" target="_blank"><img src="assets/img/github-mark.svg" alt="My GitHub" height="40px"></a></section>
+      <section><a href="https://rs.school/js/" target="_blank"><img src="https://rs.school/images/rs_school_js.svg" alt="RS-School Logo" height="30px"></a></section>
+    </div>
+  </footer>
 </body>
+
 </html>
