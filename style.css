@@ -186,4 +186,7 @@ margin: 0px 40px;
   .section {
     width: 100%;
   }
+  .nav-item {
+    width: 100%;
+  }
 }
