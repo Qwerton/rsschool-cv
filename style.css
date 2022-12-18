@@ -103,7 +103,11 @@ body {
   letter-spacing: 9px;
   word-spacing: 6px;
   margin: 0px;
-  color:#616161;
+  color:#535353;
+}
+
+.code {
+  color: #868686;
 }
 
 .bottom-section {
@@ -146,13 +150,12 @@ body {
 
 .footer-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 100%;
   height: 100px;
   background-color: #dddddd;
-  margin: 0 auto;
-  /* border-top: 1px solid #000000; */
+  /* margin: 0 auto; */
 }
 
 .copyright {
@@ -162,6 +165,7 @@ body {
   width: 185px;
   font-size: 16px;
   color: #5c5c5c;
+  margin: 0px 60px;
 }
 
 @media (max-width: 768px) {
