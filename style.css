@@ -71,7 +71,7 @@ body {
   width: 100%;
   border-bottom: 10px solid #dddddd;
   padding: 30px 30px 30px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .section-profile-headers {
@@ -159,6 +159,7 @@ body {
 
 .footer {
   background-color: #dddddd;
+  margin-top: 50px;
   padding: 5px
 }
 
