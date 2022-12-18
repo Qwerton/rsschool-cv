@@ -58,7 +58,7 @@ body {
 
 .section-title {
   text-transform: uppercase;
-  color: #a1a1a1;
+  color: #818181;
   font-size: 20px;
   font-weight: 600;
   letter-spacing: 4px;
@@ -80,6 +80,20 @@ body {
   justify-content: center;
   align-content: center;
   text-transform: uppercase;
+}
+
+.list-style {
+  list-style: circle;
+}
+
+.section-link a {
+  text-decoration: none;
+  color:#616161
+}
+
+.section-link a:hover {
+  color: #616161;
+  font-weight: 600;
 }
 
 .image {
@@ -165,7 +179,11 @@ body {
   width: 185px;
   font-size: 16px;
   color: #5c5c5c;
-  margin: 0px 60px;
+  margin: 0px 40px;
+}
+
+.school {
+margin: 0px 40px;
 }
 
 @media (max-width: 768px) {
