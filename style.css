@@ -18,6 +18,10 @@ body {
   line-height: 1.4;
 }
 
+#profile {
+  text-align: center;
+}
+
 .upper-case {
   text-transform: uppercase;
 }
@@ -180,6 +184,9 @@ margin: 0px 40px;
 
 @media (max-width: 768px) {
   .section {
+    width: 100%;
+  }
+  .nav-item {
     width: 100%;
   }
 }
