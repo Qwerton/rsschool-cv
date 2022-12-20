@@ -136,7 +136,7 @@ body {
   list-style: none;
 }
 
-.nav-link {
+.nav-item a {
   padding: 0 20px;
   line-height: 50px;
   transform: .3s;
@@ -148,7 +148,7 @@ body {
   letter-spacing: 2px;
 }
 
-.nav-link:hover {
+.nav-item a:hover {
   text-decoration: none;
   color: #b6b6b6;
 }
