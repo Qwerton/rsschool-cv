@@ -83,6 +83,7 @@ body {
 
 .list-style {
   list-style: circle;
+  padding-left: 20px;
 }
 
 .section-link a {
