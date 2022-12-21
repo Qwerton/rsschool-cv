@@ -152,6 +152,7 @@ body {
 }
 
 .nav-item a {
+  display: block;
   padding: 0 15px;
   line-height: 40px;
   transition: 0.3s;
