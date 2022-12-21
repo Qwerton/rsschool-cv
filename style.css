@@ -210,6 +210,13 @@ margin-left: 40px;
   }
   .nav-item {
     width: 100%;
+    position: relative;
+    transform: scale(1);
+    transition: 0.3s;
+  }
+  .nav-item:hover {
+    transform: scale(1);
+    transition: 0.3s;
   }
   .bottom-line {
     border-bottom: 1px solid #b3b3b3;
