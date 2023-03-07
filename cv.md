@@ -7,7 +7,9 @@
 * **GitHub:** [Qwerton](https://github.com/Qwerton)
 
 ## About Me
-I started my career as a designer and continued as a webmaster and 3D artist. I'm currently learning front-end development.
+I'm currently a student of RS-School. My goal is to gain knowledge in Front-End Development.
+My core strengths are ability to fast learning, self-education and willing to develop new skills.
+I believe this will help me to become an experienced Front-End Developer.
 
 ## Skills
   * HTML
@@ -18,16 +20,12 @@ I started my career as a designer and continued as a webmaster and 3D artist. I'
 
 ### Code Example
 ```
-function randomEvent(a, b) {
-    let randomNumber = Math.floor(Math.random() * 100);
-    console.log(randomNumber);
-    if (randomNumber % 2 == 0) {
-        console.log(a);
-    } else {
-        console.log(b);
-    }
+const randomEvent = (a, b) => {
+  const randomNumber = Math.floor(Math.random() * 100);
+  randomNumber % 2 === 0 ? console.log(a) : console.log(b);
 }
-randomEvent("yes", "no");
+randomEvent('yes', 'no');
+
 ```
 ## Languages
   * Russian
