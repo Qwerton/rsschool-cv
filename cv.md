@@ -29,6 +29,6 @@ randomEvent('yes', 'no');
 ```
 ## Languages
   * Russian
-  * English
+  * English B1
 
 
