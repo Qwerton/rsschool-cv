@@ -46,7 +46,7 @@ body {
 }
 
 .section {
-  width: 40%;
+  width: 38%;
   padding: 5px 0px 30px;
   margin: 0px 50px;
   border-bottom: 1px solid #b3b3b3;
@@ -54,32 +54,36 @@ body {
   font-size: 16px;
 }
 
-.section-title {
-  text-transform: uppercase;
-  color: #818181;
-  font-size: 20px;
-  font-weight: 600;
-  letter-spacing: 2px;
+.section:nth-child(n+8) {
+  border-bottom: none;
 }
 
-.section-profile{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  width: 100%;
-  border-bottom: 10px solid #dddddd;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-bottom: 50px;
-}
+  .section:first-child {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    border-bottom: 10px solid #dddddd;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+  }
 
-.section-profile-headers {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  text-transform: uppercase;
-}
+  .section-headers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-transform: uppercase;
+  }
+
+  .section-title {
+    text-transform: uppercase;
+    color: #818181;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
 
 .list-style {
   list-style: circle;
@@ -127,10 +131,6 @@ body {
   font-size: 16px;
 }
 
-.bottom-section {
-  border-bottom: none;
-}
-
 .nav-list {
   display: flex;
   justify-content: center;
@@ -140,10 +140,22 @@ body {
   padding: 0px;
 }
 
+.nav-item {
+  position: relative;
+  transform: scale(1);
+  transition: 0.3s;
+}
+
+.nav-item:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
 .nav-item a {
+  display: block;
   padding: 0 15px;
   line-height: 40px;
-  transform: .3s;
+  transition: 0.3s;
   text-decoration: none;
   font-size: 15px;
   font-weight: 600 ;
@@ -155,6 +167,7 @@ body {
 .nav-item a:hover {
   text-decoration: none;
   color: #b6b6b6;
+  transition: 0.3s;
 }
 
 .footer {
@@ -166,6 +179,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   width: 100%;
   height: 100px;
   background-color: #dddddd;
@@ -196,8 +210,28 @@ margin-left: 40px;
   }
   .nav-item {
     width: 100%;
+    position: relative;
+    transform: scale(1);
+    transition: 0.3s;
   }
-  .bottom-line {
+  .nav-item:hover {
+    transform: scale(1);
+    transition: 0.3s;
+  }
+
+  .section:nth-child(8) {
     border-bottom: 1px solid #b3b3b3;
+  }
+}
+
+@media (max-width: 400px) {
+  .footer-container {
+    height: 130px;
+  }
+  .copyright {
+    margin: 20px 50px 0px;
+  }
+  .school {
+    margin: 10px 50px 20px;
   }
 }
